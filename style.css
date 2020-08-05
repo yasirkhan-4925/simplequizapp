@@ -1,0 +1,59 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.scnd-container{
+    margin-top: 40px;
+}
+.option{
+    display: inline;
+}
+
+.options{
+     
+     padding: 10px 10px;
+     margin-top: 5px;
+     border-radius: 10px;
+}
+
+.options:hover{
+    background-color: #e74c3c!important;
+    color: white;
+}
+
+.active {
+    background-color:#e74c3c !important;
+    color: white;
+}
+
+.btnhide{
+ display: none;
+}
+
+.btnactive{
+     display: inline !important;
+}
+
+.quizapptext{
+    background-color:#e74c3c;
+    padding: 10px;
+    color: white;
+}
+
+.btn{
+  
+    padding: 15px;
+    width: 100px;
+    float: right;
+}
+
+
+#finalresult{
+     text-align: center;
+}
+
+.container-fluid{
+    width: 100% !important;
+}
+
+

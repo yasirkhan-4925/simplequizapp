@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="showquestion(0)">
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-12">
+                <h1 class="text-center quizapptext">Quiz App</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container scnd-container">
+        <div class="row">
+            <div class="col-12">
+                <h3 id="question"></h3>
+            </div>
+
+        </div>
+        <div class="row option">
+            <p class="options " onclick="putactiveclass(this)" ></p>
+            <p  class="options" onclick="putactiveclass(this)" ></p>
+            <p  class="options" onclick="putactiveclass(this)" ></p>
+            <p  class="options" onclick="putactiveclass(this)" ></p>
+
+            <button class="btn btn-danger" onclick="next()" id="nxtbtn"> next</button>
+            <button class="btn btn-danger " onclick="showresult()" id="resultbtn"> Show Result</button>
+
+
+        </div>
+
+        <div class="row">
+
+           <span><h3>Score:</h3></span> <h3 id="score">0</h3>
+
+        </div>
+        <div class="row">
+
+             <h3 id="quizfinish"></h3>
+ 
+         </div>
+         <hr>
+        
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12"> <h3  style="color: #e74c3c;" id="finalresult" class=""></h3></div>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
